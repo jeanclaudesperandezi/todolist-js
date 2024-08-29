@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo list</h1>
+        <div class="form">
+            <input type="text" id="taskInput" placeholder="Ajouter une nouvelle tâche">
+            <button id="addTask">Ajouter</button>
+        </div>
+       
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Tout</button>
+            <button class="filter-btn" data-filter="todo">À faire</button>
+            <button class="filter-btn" data-filter="done">Fait</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

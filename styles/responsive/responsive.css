@@ -1,0 +1,71 @@
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .titre_todolist{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    .from_todolist-inp{
+        display: flex;
+        gap: 5px;
+        width: 600px;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .from_todolist-btn{
+        font-size:20px ;
+        font-weight: 500;
+        padding: 10px;
+    }
+    .main_todolist{
+        margin-left: 85px;
+        width: 265px;
+        
+    }
+    .main_todolist-btn{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .div_todolist-end{
+        margin-left: 65px;
+        margin-right: 65px ;
+    }
+    .parag_end{
+        font-size: 25px;        
+        padding: 10px;
+        font-weight: 500;
+    }
+
+    .btn_end{
+        width: 45px;
+        height: 45px;
+        margin-top: 4px;
+    }
+   
+
+    .checkbox_end{
+        width: 40px;
+        height: 30px;
+    }
+
+
+}
+
+@media (min-width: 1024px){
+    .from_todolist-inp{
+        width: 50%;
+    }
+    .from_todolist{
+        display: flex;
+        
+    }
+
+    .div_todolist-end{
+        margin-left: 65px;
+        margin-right: 65px ;
+    }
+    .main_todolist{
+        margin-left: 85px;
+        
+    }
+}
